@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\zahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\obj\\",
+        "outputPath": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -46,6 +46,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
