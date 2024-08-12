@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
         "packagesPath": "C:\\Users\\zahid\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\obj\\",
+        "outputPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\zahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
