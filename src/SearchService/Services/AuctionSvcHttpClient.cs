@@ -21,7 +21,6 @@ public class AuctionSvcHttpClient
             .Project(x => x.UpdatedAt.ToString())
             .ExecuteFirstAsync();
         string fullPath = $@"{_config["AuctionServiceUrl"]}{AUCTIONSPATH}?date={lastUpdated}";
-        System.Console.WriteLine($"path---------------------------{fullPath}");
         return await _httpClient.GetFromJsonAsync<List<Item>>(fullPath);
     }
 }

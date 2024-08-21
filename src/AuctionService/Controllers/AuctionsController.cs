@@ -31,7 +31,6 @@ public class AuctionsController : ControllerBase
         if (!string.IsNullOrEmpty(date))
         {
             DateTime lastUpdatedAt = DateTime.Parse(date).ToUniversalTime();
-            System.Console.WriteLine($"--------------------------{lastUpdatedAt}-----------------------------");
             query = query.Where(x => x.UpdatedAt.CompareTo(lastUpdatedAt) > 0);
         }
         var mappedAuctions = await query.ProjectTo<AuctionDto>(_mapper.ConfigurationProvider).ToListAsync();
