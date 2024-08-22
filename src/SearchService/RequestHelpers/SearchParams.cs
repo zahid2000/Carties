@@ -2,7 +2,7 @@ namespace SearchService.RequestHelpers;
 
 public class SearchParams
 {
-    public string SearchTerms { get; set; }
+    public string SearchTerm { get; set; }
     public int PageNumber { get; set; } = 1;
     public int PageSize { get; set; } = 6;
     public string Seller { get; set; }
