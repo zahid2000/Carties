@@ -19,6 +19,7 @@ public class AuctionCreatedConsumer : IConsumer<AuctionCreated>
     public async Task Consume(ConsumeContext<AuctionCreated> context)
     {
         System.Console.WriteLine($"---> consume: {context.Message.Id}");
+        if (context.Message.Model == "Foo") throw new ArgumentException("Error with Model");
         var item = _mapper.Map<Item>(context.Message);
         await item.SaveAsync();
     }
