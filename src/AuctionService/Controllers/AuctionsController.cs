@@ -79,7 +79,8 @@ public class AuctionsController : ControllerBase
         Auction auction = await _context.Auctions.Where(x => x.Id == id).Include(x => x.Item).FirstOrDefaultAsync();
         if (auction == null) return NotFound();
         //TODO: check seller == current username
-        var mappedAuction = _mapper.Map(auctionDto, auction);
+        _mapper.Map(auctionDto, auction);
+        await _publishEndpoint.Publish(_mapper.Map<AuctionUpdated>(auction));
         var result = await _context.SaveChangesAsync() > 0;
         if (!result) return BadRequest("Problem sacing changes");
         return Ok(result);
@@ -92,6 +93,7 @@ public class AuctionsController : ControllerBase
         if (auction == null) return NotFound();
         //TODO: check seller == current username
         _context.Auctions.Remove(auction);
+        await _publishEndpoint.Publish<AuctionDeleted>(new{Id=auction.Id.ToString()});
         var result = await _context.SaveChangesAsync() > 0;
         if (!result) return BadRequest("Could not update DB");
         return Ok(result);

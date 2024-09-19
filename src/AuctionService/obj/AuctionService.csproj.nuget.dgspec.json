@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {}
+    "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\AuctionService\\AuctionService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj": {
+    "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\AuctionService\\AuctionService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\AuctionService\\AuctionService.csproj",
         "projectName": "AuctionService",
-        "projectPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\AuctionService.csproj",
-        "packagesPath": "C:\\Users\\zahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\AuctionService\\obj\\",
+        "projectPath": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\AuctionService\\AuctionService.csproj",
+        "packagesPath": "C:\\Users\\zahid.ma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\AuctionService\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.ma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -23,15 +27,14 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\zahid\\source\\Newton\\Core\\nTairCorePackages\\Core.Business\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\Contratcs.csproj": {
-                "projectPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\Contratcs.csproj"
+              "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\Contratcs.csproj": {
+                "projectPath": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\Contratcs.csproj"
               }
             }
           }
@@ -93,21 +96,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\Contratcs.csproj": {
+    "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\Contratcs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\Contratcs.csproj",
+        "projectUniqueName": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\Contratcs.csproj",
         "projectName": "Contratcs",
-        "projectPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\Contratcs.csproj",
-        "packagesPath": "C:\\Users\\zahid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\zahid\\source\\Zahid\\Microservices\\Udemy\\Neil Cummings\\Carsties\\src\\Contratcs\\obj\\",
+        "projectPath": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\Contratcs.csproj",
+        "packagesPath": "C:\\Users\\zahid.ma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zahid.ma\\source\\Zahid\\AspNetCore\\Carties\\src\\Contratcs\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\zahid\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zahid.ma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -116,7 +123,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Users\\zahid\\source\\Newton\\Core\\nTairCorePackages\\Core.Business\\bin\\Debug": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -155,7 +161,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
