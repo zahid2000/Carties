@@ -13,7 +13,7 @@
 
         @if (Model.View.EnableLocalLogin)
         {
-            <div class="col-sm-6">
+            <div class="col-sm-6 offset-3">
                 <div class="card">
                     <div class="card-header">
                         <h2>Local Account</h2>
@@ -43,7 +43,9 @@
                                     </div>
                                 </div>
                             }
-                            
+                            <a class="pb-2 d-block" asp-page="../Register/Index" asp-route-returnUrl="@Model.Input.ReturnUrl">
+                                New User?Register here
+                            </a>
                             <button class="btn btn-primary" name="Input.Button" value="login">Login</button>
                             <button class="btn btn-secondary" name="Input.Button" value="cancel">Cancel</button>
                         </form>
